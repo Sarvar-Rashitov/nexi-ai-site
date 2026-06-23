@@ -1,0 +1,18 @@
+# Robots.txt for Nexi AI
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+# Sitemap
+Sitemap: https://nexi.ai/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Block specific bots (optional)
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
